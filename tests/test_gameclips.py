@@ -29,6 +29,7 @@ def test_gameclips_recent_own(xbl_client):
         data = ret.json()
 
         assert len(data['gameClips']) == 25
+        return data
 
 
 def test_gameclips_recent_own_titleid_filter(xbl_client):

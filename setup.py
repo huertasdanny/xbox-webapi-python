@@ -67,7 +67,9 @@ setup(
             'xbox-authenticate=xbox.webapi.scripts.authenticate:main',
             'xbox-auth-tui=xbox.webapi.scripts.tui:main',
             'xbox-searchlive=xbox.webapi.scripts.search:main',
-            'xbox-change-gt=xbox.webapi.scripts.change_gamertag:main'
+            'xbox-change-gt=xbox.webapi.scripts.change_gamertag:main',
+            'xbox-getrecentclips=xbox.webapi.scripts.fetchrecentownclips:main'
+
         ]
     }
 )
